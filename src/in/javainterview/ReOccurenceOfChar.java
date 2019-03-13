@@ -23,6 +23,11 @@ public class ReOccurenceOfChar {
         }
         //hello
         System.out.println(map);
+        for(Map.Entry<Character, Integer> n : map.entrySet()){
+            if(n.getKey().equals('a')){
+                System.out.println(n.getKey()+":"+n.getValue());
+            }
+        }
         
     }
 }
